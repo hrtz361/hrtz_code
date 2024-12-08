@@ -1,0 +1,2 @@
+echo "wellcome to shell"
+

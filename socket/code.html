@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>code.html</title>
+</head>
+<body>
+<script>
+	let hello = 10
+	let mang = new Array(5)
+	mang[0]="hoang"
+	mang[1]={}
+	mang[2]=2
+	mang[3]=true
+	mang[4]="chua duoc dinh nghia"
+	let chuoi = "the quick brown fox jumps over the lazy dog"
+	console.log(chuoi.split(' '))
+	console.log(chuoi.includes('fox','jumps'))
+	console.log(chuoi.length)
+
+
+	// commands 
+	let answer = "humand ?"
+	answer = prompt("are you humand?",answer)
+	document.write(answer)
+	alert(1)
+	for(let floop = 0;floop<mang.length;){
+		document.write(mang[floop]+"</br>")
+		++floop
+	}
+	let STR = ['hello','my','name','is','...']
+	for(print of STR){
+		document.write(print)
+	}
+	let doituong = {
+		so:7,chuoi:"hoang",OBJ:{},HAM:function (){
+			document.write("from function in object ")
+		}
+	}
+		
+	doituong.HAM()	
+	console.log(mang[0])
+	console.log(mang[3])
+	console.log(mang[2])
+	document.write(mang[1])
+
+	let bientestketqua = 2 + 2 * 4 
+	document.write(bientestketqua)
+</script>
+</body>
+</html>
+

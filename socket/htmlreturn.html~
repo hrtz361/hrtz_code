@@ -1,0 +1,18 @@
+142.250.198.206Response: HTTP/1.1 200 OK
+Date: Mon, 07 Oct 2024 20:26:25 GMT
+Expires: -1
+Cache-Control: private, max-age=0
+Content-Type: text/html; charset=ISO-8859-1
+Content-Security-Policy-Report-Only: object-src 'none';base-uri 'self';script-src 'nonce-mByx0lc7Bm92LWqW0zK00w' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:;report-uri https://csp.withgoogle.com/csp/gws/other-hp
+P3P: CP="This is not a P3P policy! See g.co/p3phelp for more info."
+Server: gws
+X-XSS-Protection: 0
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: AEC=AVYB7crtX7PuxuiZOruqHHIDmtpmtSR_0T-6OpqApFifqAshgtiBvpKwkw; expires=Sat, 05-Apr-2025 20:26:25 GMT; path=/; domain=.google.com; Secure; HttpOnly; SameSite=lax
+Set-Cookie: NID=518=n3wuEKjUH2n5T-rViVoq9tkBkVNEyaZ7J9Vx0UcWodgEd7LhOPGjlaDj6EU-yL_HBtwTozsbuD-rpfIH0qx1o_tIg9Ja10iEeYUMHKIax-XL5u5cuyU1kcpv4uKKKxiEeSION-1YZLivoJ_plBx94Go5wSprS_qOOPHp6MO8xUk2AftjaxJfvORLaWk2SXMybEM; expires=Tue, 08-Apr-2025 20:26:25 GMT; path=/; domain=.google.com; HttpOnly
+Accept-Ranges: none
+Vary: Accept-Encoding
+Transfer-Encoding: chunked
+
+5d82
+<!doctype html><html itemscope="" itemtype="http://schema.org/WebPage" lang="vi"><head><meta content="text/html; charset=UTF-8" http-equiv="Content-Type"><meta content="/images/branding/googleg/1x/googleg_standard_color_128dp.png" itemprop="image"><title>Google</title><script nonce="mByx0lc7Bm92LWqW0zK00w">(function(){var _g=

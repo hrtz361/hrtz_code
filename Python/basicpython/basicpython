@@ -1,0 +1,10 @@
+class ontap:
+
+    tinhchat="khongco"
+    def __init__(self,in1,in2):
+        self.in1=in1
+        self.in2=in2
+
+objectso1=ontap(input("thong tin 1 cua doi tuong:"),input("thong tin 1 cua doi tuong:"))
+print("tinh chat {}".format(objectso1.__class__.tinhchat))
+print("thong tin {}:{}".format(objectso1.in1,objectso1.in2))
