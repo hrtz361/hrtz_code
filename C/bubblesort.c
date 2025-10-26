@@ -2,6 +2,7 @@
 #include<string.h>
 
 int main(){
+int sum=35;
 char str;
 char string [] = "thequickbrownfoxjumpsoverthelazydog"; 
 int checksort=0;
