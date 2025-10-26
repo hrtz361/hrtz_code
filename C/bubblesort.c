@@ -1,9 +1,11 @@
 #include<stdio.h>
+#include<string.h>
+
 int main(){
+char str;
+char string [] = "thequickbrownfoxjumpsoverthelazydog"; 
 int checksort=0;
-int sum=37; 
 int exchange=0; 
-char string [] = {"phanhuyhoangdaoxuandungnguyendinhphuc"}; 
 cont: 
 checksort=0; 
 for(int i=0;i<sum-1;){
