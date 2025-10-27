@@ -1,8 +1,8 @@
 #include<stdio.h>
 //
-
 int main(){
     int Square_size;
+label:
     printf("how big is the square?:");
     scanf("%d",&Square_size);
 	int a=1;
@@ -20,6 +20,6 @@ int main(){
         }
 
 	}
-
+	goto label;
 	return 1024;
 }
