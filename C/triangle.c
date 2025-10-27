@@ -24,6 +24,11 @@ printf("\n");
 d=--e;
 }
 goto label;
+//should redesign it to get the return message 
+return 0 ; 
+
 
 }
+
 // W10 editing here
+// instdecoder editing here too
