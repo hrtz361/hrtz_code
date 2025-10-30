@@ -13,6 +13,7 @@ else{
 	
 	printf("2");
 }
+//
 value=loop;
 }
 }
