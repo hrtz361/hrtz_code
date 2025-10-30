@@ -8,7 +8,6 @@ int main(int argc,char *argv[]){
 int id = fork(); 
 int so;
 if(id!=0){
-	wait(); 
 }
 else{
 	so=getpid(); 
