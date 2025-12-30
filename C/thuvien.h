@@ -1,6 +1,6 @@
 #ifndef LIB
 #define LIB 
-int sum(int bien1,int bien2){
+double sum(double bien1,double bien2){
 	return bien1+bien2;
 	}
 
