@@ -1,9 +1,10 @@
+
+
 #include<stdio.h>
 #include<math.h>
 #include<string.h> 
 int main(){
 	//FILE POINTER 
-	//
 	char strings[1024];
 	FILE * fp = fopen("/home/l2tatime/TLH/INFO/underwood","r"); 
 	
