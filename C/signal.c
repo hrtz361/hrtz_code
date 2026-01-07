@@ -3,6 +3,7 @@
 #include<stdlib.h>
 // what is handler is it get input by stdin ? 
 void func(int err){
+	
 	printf("get signal from insdec id:%d ",err);
 	printf("\nthe number?:%d\n",SIGINT); 
 	printf("the number?:%d\n",SIGQUIT); 
