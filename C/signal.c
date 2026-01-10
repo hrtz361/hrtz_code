@@ -1,5 +1,6 @@
 //gentoo here :D 
-
+//done with git ? divergent ? 
+//
 
 #include<stdio.h>
 #include<signal.h>
