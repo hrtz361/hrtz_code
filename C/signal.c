@@ -1,6 +1,6 @@
 //gentoo here :D 
 //done with git ? divergent ? 
-//
+//nexus5 also here !
 
 #include<stdio.h>
 #include<signal.h>
