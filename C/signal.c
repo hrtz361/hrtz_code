@@ -3,7 +3,7 @@
 #include<stdlib.h>
 // what is handler is it get input by stdin ? 
 void func(int err){
-	printf("get signal from insdec id:%d",err);
+	printf("get signal from insdec id:%d\n",err);
 	printf("the number?:%d\n",SIGKILL); 
 	printf("the number?:%d\n",SIGINT); 
 	printf("the number?:%d\n",SIGSEGV); 
@@ -15,10 +15,19 @@ void func(int err){
 
 //
 int main(){
-	signal(SIGQUIT,func); 
-	while(1){
-		printf("\n  * "); 
-	} 
+	int pid;
+	printf("enter pid:");
+	scanf("%d",&pid);
+
+	//signal generate 
+	signal(SIGINT,func);
+	kill(pid,SIGKILL);
+	if(1){
+	raise(SIGINT); 
+	
+		
+	}
+	
 }
 //SIGENERATION 
 //SIGTYPES 
